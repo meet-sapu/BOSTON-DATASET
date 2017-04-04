@@ -15,11 +15,11 @@ As usual, we will first download our datasets locally, and then we will load the
 Source of dataset : https://archive.ics.uci.edu/ml/datasets/Housing
 In R, we use read.csv to read CSV files into data.frame variables. Although the R function read.csv can work with URLs, https is a problem for R in many cases, so you need to use a package like RCurl to get around it. 
 Libraries used :
-library(readxl) #to read .xlsv file . 
-library(caTools) #for sample.split .
-library(rpart) #for prediction() , performance() .
-library(rpart.plot) #for plotting ROC curve .
-library(xgboost) #for applying XGboost .
-library(DMwR) #for applying SMOTE .
-library(factoextra) #for PCA
+1)library(readxl) #to read .xlsv file . 
+2)library(caTools) #for sample.split .
+3)library(rpart) #for prediction() , performance() .
+4)library(rpart.plot) #for plotting ROC curve .
+5)library(xgboost) #for applying XGboost .
+6)library(DMwR) #for applying SMOTE .
+7)library(factoextra) #for PCA
 
